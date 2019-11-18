@@ -21,6 +21,7 @@ LABEL com.github.actions.description="Execute jest tests and test failure annota
 LABEL com.github.actions.icon="check"
 LABEL com.github.actions.color="green"
 
+ENV PROJECT_PATH .
 ENV JEST_CMD ./node_modules/.bin/jest
 COPY entrypoint.sh /entrypoint.sh
 

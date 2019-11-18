@@ -33,6 +33,7 @@ action "Jest" {
 
 ### Environment variables
 
+* `PROJECT_PATH` - **Optional**. Changes the working directory.
 * `JEST_CMD` - **Optional**. The path the Jest command - defaults to `./node_modules/.bin/jest`.
 
 #### Example
